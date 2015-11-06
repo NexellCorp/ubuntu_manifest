@@ -2,16 +2,17 @@
 <manifest>
 
     <remote name="nexell_linux"
-        fetch="../../linux" />
+        fetch="../linux" />
 
     <remote name="nexell_ubuntu"
-        fetch="../" />
+        fetch="./" />
 
     <!-- nexell_linux: prototype, u-boot, kernel -->
     <project path="linux/prototype/s5p4418" name="prototype/pyrope" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/prototype/s5p6818" name="prototype/nxp5430" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" remote="nexell_linux" revision="linux-dev" />
+    <project path="linux/kernel/kernel-3.18" name="kernel/kernel-3.18" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/platform/s5p4418" name="pyrope" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/platform/s5p6818" name="nxp5430" remote="nexell_linux" revision="linux-dev" />
     <project path="linux/platform/common" name="platform/common" remote="nexell_linux" revision="linux-dev" />
